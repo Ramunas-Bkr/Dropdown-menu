@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+</head>
+
+<body>
+    <div class="tag">
+        <div class="head">Tag</div>
+        <div class="number">1</div>
+        <div class="triangle"></div>
+    </div>
+    <div class="dropdown_block" id="dropdown">
+        <div class="dropdown_list">
+            <label class="container">
+          <div class="name">Customers</div>
+          <input type="checkbox" value="customers" class="check" />
+          <span class="checkmark"></span>
+        </label>
+            <label class="container">
+          <div class="name">VIP</div>
+          <input type="checkbox" value="vip" class="check" />
+          <span class="checkmark"></span>
+        </label>
+            <label class="container">
+          <div class="name">Oldtimer</div>
+          <input type="checkbox" value="oldtimer" class="check" />
+          <span class="checkmark"></span>
+        </label>
+            <label class="container">
+          <div class="name">Remove</div>
+          <input type="checkbox" value="remove" class="check" />
+          <span class="checkmark"></span>
+        </label>
+        </div>
+    </div>
+    <div class="alert" id="alert">
+        <h4>Error</h4>
+        <p>You haven't checked any checkbox. <span> Please select it </span></p>
+        <button id="alert_button">OK</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
