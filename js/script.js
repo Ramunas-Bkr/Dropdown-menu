@@ -16,6 +16,7 @@ window.onclick = function(event) {
                 counter++;
                 if (counter === 4) {
                     alert.style.display = "block";
+                    counter = 0;
                 }
             }
         }
