@@ -14,7 +14,7 @@ window.onclick = function(event) {
         for (let i = 0; i < check.length; i++) {
             if (!check[i].checked) {
                 counter++;
-                if (counter === 4) {
+                if (counter == check.length) {
                     alert.style.display = "block";
                     counter = 0;
                 }
